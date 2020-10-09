@@ -6,7 +6,7 @@ from .models import Resource
 class SubjectSerializer(serializers.HyperlinkedModelSerializer):
   class Meta:
     model = Subject
-    fields = ('name')
+    fields = '__all__'
 
 class ResourceSerializer(serializers.HyperlinkedModelSerializer):
   class Meta:
