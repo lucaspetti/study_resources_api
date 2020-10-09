@@ -25,3 +25,7 @@ You may want to create a super user, or admin user. To do that just run:
 `python manage.py createsuperuser`
 
 And enter the desired username and password.
+
+To run the test suite:
+
+`python manage.py test`
