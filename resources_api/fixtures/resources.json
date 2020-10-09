@@ -3,10 +3,10 @@
     "model": "resources_api.resource",
     "pk": 1,
     "fields": {
-      "name": "Databases",
+      "name": "Databases Red Book",
       "kind": "Book",
       "description": "Book about Databases",
-      "link": "placeholder.com",
+      "link": "http://www.redbook.io/",
       "subject": 1
     }
   }
