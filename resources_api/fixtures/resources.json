@@ -1,0 +1,13 @@
+[
+  {
+    "model": "resources_api.resource",
+    "pk": 1,
+    "fields": {
+      "name": "Databases",
+      "kind": "Book",
+      "description": "Book about Databases",
+      "link": "placeholder.com",
+      "subject": 1
+    }
+  }
+]
