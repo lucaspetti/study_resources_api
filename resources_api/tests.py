@@ -19,3 +19,9 @@ class ResourceTestCase(TestCase):
   def test_resources_name(self):
     resource = Resource.objects.get(name='CS_DB_CLASS')
     self.assertEqual(resource.__str__(), 'CS_DB_CLASS')
+
+  def test_resources_association(self):
+    subject = Subject.objects.get(name='Databases')
+    resource = Resource.objects.get(name='CS_DB_CLASS')
+    resource_from_subject = subject.resources.all().first()
+    self.assertEqual(resource, resource_from_subject)

@@ -26,6 +26,14 @@ You may want to create a super user, or admin user. To do that just run:
 
 And enter the desired username and password.
 
+#### Tests
+
 To run the test suite:
 
 `python manage.py test`
+
+#### Fixtures
+
+There are files with fixtures for CS subjects and example resources. You can edit the data there and populate the database running:
+
+`python manage.py loaddata resources.json`
