@@ -11,4 +11,4 @@ class SubjectSerializer(serializers.HyperlinkedModelSerializer):
 class ResourceSerializer(serializers.HyperlinkedModelSerializer):
   class Meta:
     model = Resource
-    fields = ('name', 'kind', 'description', 'link', 'status', 'subject')
+    fields = ('id', 'name', 'kind', 'description', 'link', 'status', 'subject')
